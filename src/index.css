@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.s-box-shadow {
+  box-shadow: 0px 1px 3px 0px #00000040;
+}
+
+.blue-box-shadow {
+  transition: all 0.3s;
+  &:hover {
+    transition: all 0.3s;
+    box-shadow: 0px 0px 8px 0px #0094cd;
+  }
+}
+
+
+@layer utilities{
+  .menu-item{
+    @apply relative hover:text-white
+  }
+  
+  .menu-item::after{
+    @apply content-[''] bg-custom-orange
+    h-[3px] w-[0%] left-0 top-[26px] rounded-xl 
+    absolute duration-300
+  }
+
+  .menu-item:hover::after{
+    @apply w-[100%]
+  }
+
+  /* Add active styles */
+  .menu-item.active {
+    @apply text-white;
+  }
+
+  .menu-item.active::after {
+    @apply w-[100%]; 
+  }
+
+  .content-head,
+  .personal-underline{
+    @apply relative
+  }
+
+  .content-head::after,
+  .personal-underline::after{
+    @apply content-[''] bg-custom-orange
+    h-[3px] w-[100%] left-0 top-[50px] rounded-xl 
+    absolute
+  }
+
+  .skill-per{
+    @apply relative
+  }
+
+  .skill-per::before{
+    content: attr(data-per);
+    @apply absolute text-white 
+    bg-custom-orange p-2 rounded right-0 bottom-5
+  }
+}
