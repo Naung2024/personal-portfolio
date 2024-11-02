@@ -3,6 +3,7 @@ import { FaPhone } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import facebookIcon from "../assets/images/facebook.png";
 import linkedinIcon from "../assets/images/linkedin.webp";
+import githubIcon from "../assets/images/github.png";
 import Swal from 'sweetalert2'
 
 
@@ -103,6 +104,7 @@ const ContactUs = () => {
                             <div className="flex gap-x-6">
                                 <a href="https://www.facebook.com/profile.php?id=100015942486600&mibextid=ZbWKwL" target="_blank"><img className="w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] rounded-full" src={facebookIcon} alt="Facebook" /></a>
                                 <a href="https://www.linkedin.com/in/naung-naung-b849141b6" target="_blank"><img className="w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] rounded-full" src={linkedinIcon} alt="Linkedin" /></a>
+                                <a href="https://github.com/Naung2024" target="_blank"><img className="w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] rounded-full" src={githubIcon} alt="Github" /></a>
                             </div>
                         </div>
                     </div>

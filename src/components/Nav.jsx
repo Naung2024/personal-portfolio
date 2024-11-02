@@ -61,7 +61,7 @@ const Nav = () => {
           </div>
           <div
             className={`md:static bg-custom-dark absolute md:min-h-fit min-h-[70vh] left-0 ${
-              isMenuOpen ? "top-[11%]" : "top-[-100%]"
+              isMenuOpen ? "top-[10%]" : "top-[-100%]"
             } md:w-auto w-full flex items-center px-5 transition-all duration-700 ease-in-out`}
           >
             <div className="text-custom-green gap-10 text-[16px] flex md:flex-row flex-col md:items-center">
@@ -77,11 +77,11 @@ const Nav = () => {
                   {section.toUpperCase()}
                 </a>
               ))}
-              <a href="http://localhost:5173/FullStackDeveloper.pdf" download className="md:hidden w-[156px] h-[40px] leading-[40px] text-center bg-custom-orange text-white rounded-[3px]">Download CV</a>
+              <a href="https://naungnaung.vercel.app/FullStackDeveloper.pdf" download className="md:hidden w-[156px] h-[40px] leading-[40px] text-center bg-custom-orange text-white rounded-[3px]">Download CV</a>
             </div>
           </div>
           <div className="flex items-center gap-8">
-            <a href="http://localhost:5173/FullStackDeveloper.pdf" download className="hidden md:block w-[156px] h-[40px] leading-[40px] text-center bg-custom-orange text-white rounded-[3px]">Download CV</a>
+            <a href="https://naungnaung.vercel.app/FullStackDeveloper.pdf" download className="hidden md:block w-[156px] h-[40px] leading-[40px] text-center bg-custom-orange text-white rounded-[3px]">Download CV</a>
             {isMenuOpen ? (
               <IoCloseSharp
                 className="md:hidden size-6 cursor-pointer text-custom-orange"

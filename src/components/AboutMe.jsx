@@ -1,4 +1,7 @@
 import aboutMeImg from "../assets/images/naungnaung-profile.jpg";
+import facebookIcon from "../assets/images/facebook.png";
+import linkedinIcon from "../assets/images/linkedin.webp";
+import githubIcon from "../assets/images/github.png";
 
 // Smooth scroll and close menu
 const handleSmoothScroll = (e, targetId) => {
@@ -39,7 +42,7 @@ const AboutMe = () => {
                     <div className="text-custom-green w-[20%] text-base">Birthday:</div>
                     <div className="text-white w-[80%] ml-auto text-base">15 November 1997</div>
                 </div>
-                <div className="flex my-2.5 gap-5">
+                <div className="flex my-4 gap-5">
                     <div className="text-custom-green w-[20%] text-base">Email:</div>
                     <div className="text-white w-[80%] ml-auto text-base">naungnaung.code@gmail.com</div>
                 </div>
@@ -47,13 +50,21 @@ const AboutMe = () => {
                     <div className="text-custom-green w-[20%] text-base">Phone:</div>
                     <div className="text-white w-[80%] ml-auto text-base">09-781716928</div>
                 </div>
-                <div className="flex my-2.5 gap-5">
+                <div className="flex my-4 gap-5">
                     <div className="text-custom-green w-[20%] text-base">Education:</div>
                     <div className="text-white w-[80%] ml-auto text-base">Bachelor of Computer Science (B.C.Sc) <br /> University of Computer Studies, Meiktila, Myanmar </div>
                 </div>
                 <div className="flex gap-5">
                     <div className="text-custom-green w-[20%] text-base">Freelance:</div>
                     <div className="text-white w-[80%] ml-auto text-base">Available</div>
+                </div>
+                <div className="flex my-4 gap-5">
+                    <div className="text-custom-green w-[20%] text-base">Follow Me:</div>
+                    <div className="text-white w-[80%] ml-auto text-base flex space-x-[15px]">
+                        <a href="https://www.facebook.com/profile.php?id=100015942486600&mibextid=ZbWKwL" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={facebookIcon} alt="Facebook" /></a>
+                        <a href="https://www.linkedin.com/in/naung-naung-b849141b6" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={linkedinIcon} alt="Linkedin" /></a>
+                        <a href="https://github.com/Naung2024" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={githubIcon} alt="Github" /></a>
+                    </div>
                 </div>
                 <button onClick={(e) => handleSmoothScroll(e, '#contact')} className="my-5 w-[156px] h-[40px] bg-custom-orange align-center text-white rounded-[3px]">
                   Hire Me

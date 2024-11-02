@@ -3,6 +3,7 @@ import { Typewriter } from 'react-simple-typewriter'
 import myImg from "../assets/images/naungnaung.png";
 import facebookIcon from "../assets/images/facebook.png";
 import linkedinIcon from "../assets/images/linkedin.webp";
+import githubIcon from "../assets/images/github.png";
 
 // Smooth scroll and close menu
 const handleSmoothScroll = (e, targetId) => {
@@ -19,8 +20,8 @@ const Hero = () => {
   return (
     <div className="bg-custom-gray-dark" id="home">
         <div className="flex container gap-x-10 px-5 py-[60px] sm:flex-row flex-col items-center">
-            <div className="mb-10 sm:mb-0 max-w-[385px] sm:w-[385px] sm:h-[513px] sm:bg-custom-dark rounded-br-[40px] rounded-bl-[40px] rounded-tr-[80px]">
-                <img className="max-w-full h-[350px] sm:w-[385px] sm:h-[513px] object-contain sm:object-cover" src={ myImg } alt="Naung Naung" />
+            <div className="mb-10 sm:mb-0 max-w-[385px] sm:w-[370x] sm:h-[480px] sm:bg-custom-dark rounded-br-[40px] rounded-bl-[40px] rounded-tr-[80px]">
+                <img className="max-w-full h-[350px] sm:w-[370x] sm:h-[480px] object-contain sm:object-cover" src={ myImg } alt="Naung Naung" />
             </div>
             <div className="gap-1 md:gap-0 sm:ml-auto sm:w-[470px] md:w-[510px] lg:w-[646px] flex flex-col justify-center sm:items-start items-center">
                 <h4 className="text-custom-green text-xl lg:text-2xl font-medium">Hello, It's me</h4>
@@ -50,6 +51,7 @@ const Hero = () => {
                     <span className="text-white font-normal leading-7">Follow Me: </span>
                     <a href="https://www.facebook.com/profile.php?id=100015942486600&mibextid=ZbWKwL" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={facebookIcon} alt="Facebook" /></a>
                     <a href="https://www.linkedin.com/in/naung-naung-b849141b6" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={linkedinIcon} alt="Linkedin" /></a>
+                    <a href="https://github.com/Naung2024" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={githubIcon} alt="Github" /></a>
                 </div>
             </div>
         </div>
