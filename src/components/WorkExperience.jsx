@@ -30,12 +30,12 @@ const WorkExperience = () => {
                         </div>
                         <div className="flex items-center">
                             <MdWorkHistory className="text-custom-orange size-5 mr-2" />
-                            <p className="text-white font-normal leading-7">Aug 2024 ~ Sept 2024</p>
+                            <p className="text-white font-normal leading-7">Aug 2024 ~ Aug 2024</p>
                         </div>
                         <h6 className="text-lg font-medium text-custom-green my-[15px]">Responsibilities</h6>
                         <ul className="text-white list-disc pl-5">
-                            <li className="mb-2.5">Design user interfaces for web and mobile applications using Figma</li>
-                            <li className="mb-2.5">Create wireframes, prototypes, and user flows to effectively communicate interaction and design ideas.</li>
+                            <li className="mb-2.5">Designed user interfaces for web and mobile applications using Figma.</li>
+                            <li className="mb-2.5">Created wireframes, prototypes, and user flows to effectively communicate interaction and design ideas.</li>
                         </ul>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ const WorkExperience = () => {
                         <h6 className="text-lg font-medium text-custom-green my-[15px]">Responsibilities</h6>
                         <ul className="text-white list-disc pl-5">
                             <li className="mb-2.5">Designed and implemented dynamic Web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, VueJs and Laravel (PHP framework), MySQL.</li>
-                            <li className="mb-2.5">Design and maintain databases and execute back-end and user interface tests to optimize system performance.</li>
+                            <li className="mb-2.5">Designed and maintained databases and execute back-end and user interface tests to optimize system performance.</li>
                             <li>Troubleshoot, test and maintain the core product software and databases to ensure strong optimization and functionality.</li>
                         </ul>
                     </div>
@@ -75,7 +75,7 @@ const WorkExperience = () => {
                     <div className="flex justify-between items-start">
                         <div className="flex items-start">
                             <MdWorkOutline className="text-custom-orange size-7 mr-2" />
-                            <h5 className="text-white text-lg sm:text-xl">Freelance UI/UX Designer</h5>
+                            <h5 className="text-white text-lg sm:text-xl">Freelance Web Developer</h5>
                         </div>
                         <div>
                             <div className="w-[102px] h-[28px] bg-custom-orange flex items-center justify-center text-white text-sm rounded-[50px]">
@@ -94,8 +94,11 @@ const WorkExperience = () => {
                         </div>
                         <h6 className="text-lg font-medium text-custom-green my-[15px]">Responsibilities</h6>
                         <ul className="text-white list-disc pl-5">
-                            <li className="mb-2.5">Design user interfaces for web and mobile applications using Figma</li>
-                            <li className="mb-2.5">Create wireframes, prototypes, and user flows to effectively communicate interaction and design ideas.</li>
+                            <li className="mb-2.5">Designed user interfaces for web and mobile applications using Figma</li>
+                            <li className="mb-2.5">Created wireframes, prototypes, and user flows to effectively communicate interaction and design ideas.</li>
+                            <li className="mb-2.5">Designed and implemented dynamic Web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, VueJs and Laravel (PHP framework), MySQL.</li>
+                            <li className="mb-2.5">Designed and maintained databases and execute back-end and user interface tests to optimize system performance.</li>
+                            <li>Troubleshoot, test and maintain the core product software and databases to ensure strong optimization and functionality.</li>
                         </ul>
                     </div>
                 </div>
@@ -123,13 +126,13 @@ const WorkExperience = () => {
                         <h6 className="text-lg font-medium text-custom-green my-[15px]">Responsibilities</h6>
                         <ul className="text-white list-disc pl-5">
                             <li className="mb-2.5">Designed and implemented dynamic Web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, VueJs and Laravel (PHP framework), MySQL.</li>
-                            <li> Develop, build and maintain RESTful APIs</li>
+                            <li> Developed, built and maintained RESTful APIs</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div className="flex justify-between mt-[30px]">
+            <div className="flex sm:flex-row flex-col justify-between mt-[30px] gap-10">
                 <div className="w-full sm:w-[560px]">
                     <div className="flex justify-between items-start">
                         <div className="flex items-start">
@@ -155,6 +158,33 @@ const WorkExperience = () => {
                         <ul className="text-white list-disc pl-5">
                             <li className="mb-2.5">Developed location tracking using Nodejs, Express, Elasticsearch, Docker, Kibina.</li>
                             <li className="mb-2.5">Developed Map Improvement (Map Accuracy) using Nodejs (API), Express, Google Map API, MongoDB (NoSQL).</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="w-full sm:w-[560px]">
+                    <div className="flex justify-between items-start">
+                        <div className="flex items-start">
+                            <MdWorkOutline className="text-custom-orange size-7 mr-2" />
+                            <h5 className="text-white text-lg sm:text-xl">Junior Web Developer</h5>
+                        </div>
+                        <div>
+                            <div className="w-[102px] h-[28px] bg-custom-orange flex items-center justify-center text-white text-sm rounded-[50px]">
+                                Full Time
+                            </div>
+                        </div>
+                    </div>
+                    <div className="ml-[35px] mt-[15px]">
+                        <div className="flex mb-2.5 items-center">
+                            <PiBuildingOfficeBold className="text-custom-orange size-5 mr-2"/>
+                            <p className="text-white font-normal leading-7">Marter Solutions, Mandalay</p>
+                        </div>
+                        <div className="flex items-center">
+                            <MdWorkHistory className="text-custom-orange size-5 mr-2" />
+                            <p className="text-white font-normal leading-7">Oct 2018 ~ Nov 2018 </p>
+                        </div>
+                        <h6 className="text-lg font-medium text-custom-green my-[15px]">Responsibilities</h6>
+                        <ul className="text-white list-disc pl-5">
+                            <li className="mb-2.5">Designed and implemented dynamic Web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, Nodejs, Express, MongoDB (NoSQL).</li>
                         </ul>
                     </div>
                 </div>

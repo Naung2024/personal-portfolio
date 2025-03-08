@@ -85,7 +85,7 @@ const ContactUs = () => {
                             </div>
                             <div className="flex flex-col justify-center">
                                 <h5 className="text-custom-green text-xl font-medium">Call Me</h5>
-                                <p className="text-white font-normal leading-7">09-781716928</p>
+                                <p className="text-white font-normal leading-7">080 965 2078</p>
                             </div>
                         </div>
                         
@@ -102,7 +102,7 @@ const ContactUs = () => {
                         <div>
                             <h5 className="text-custom-green text-xl font-medium mb-5">Follow Me</h5>
                             <div className="flex gap-x-6">
-                                <a href="https://www.facebook.com/profile.php?id=100015942486600&mibextid=ZbWKwL" target="_blank"><img className="w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] rounded-full" src={facebookIcon} alt="Facebook" /></a>
+                                <a href="https://www.facebook.com/share/18R8yxYE2H" target="_blank"><img className="w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] rounded-full" src={facebookIcon} alt="Facebook" /></a>
                                 <a href="https://www.linkedin.com/in/naung-naung-b849141b6" target="_blank"><img className="w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] rounded-full" src={linkedinIcon} alt="Linkedin" /></a>
                                 <a href="https://github.com/Naung2024" target="_blank"><img className="w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] rounded-full" src={githubIcon} alt="Github" /></a>
                             </div>

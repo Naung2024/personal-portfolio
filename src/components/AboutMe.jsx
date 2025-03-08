@@ -27,7 +27,7 @@ const AboutMe = () => {
                     <span className="text-custom-green">Naung Naung</span>
                 </h4>
                 <p className="text-white font-normal leading-7 pb-5">
-                    I am a full stack developer with over 4 years of experience creating websites for small 
+                    I am a full stack developer with over 4+ years of experience creating websites for small 
                     and medium-sized businesses. I specialize in both web design and development, 
                     building websites that are easy to use and visually appealing. My focus is on 
                     delivering websites that not only look good but also help businesses grow. I enjoy 
@@ -48,7 +48,7 @@ const AboutMe = () => {
                 </div>
                 <div className="flex gap-5">
                     <div className="text-custom-green w-[20%] text-base">Phone:</div>
-                    <div className="text-white w-[80%] ml-auto text-base">09-781716928</div>
+                    <div className="text-white w-[80%] ml-auto text-base">080 965 2078</div>
                 </div>
                 <div className="flex my-4 gap-5">
                     <div className="text-custom-green w-[20%] text-base">Education:</div>
@@ -61,7 +61,7 @@ const AboutMe = () => {
                 <div className="flex my-4 gap-5">
                     <div className="text-custom-green w-[20%] text-base">Follow Me:</div>
                     <div className="text-white w-[80%] ml-auto text-base flex space-x-[15px]">
-                        <a href="https://www.facebook.com/profile.php?id=100015942486600&mibextid=ZbWKwL" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={facebookIcon} alt="Facebook" /></a>
+                        <a href="https://www.facebook.com/share/18R8yxYE2H" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={facebookIcon} alt="Facebook" /></a>
                         <a href="https://www.linkedin.com/in/naung-naung-b849141b6" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={linkedinIcon} alt="Linkedin" /></a>
                         <a href="https://github.com/Naung2024" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={githubIcon} alt="Github" /></a>
                     </div>
