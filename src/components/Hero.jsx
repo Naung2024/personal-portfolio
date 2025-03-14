@@ -50,7 +50,7 @@ const Hero = () => {
                 <div className="flex space-x-[15px]">
                     <span className="text-white font-normal leading-7">Follow Me: </span>
                     <a href="https://www.facebook.com/share/18R8yxYE2H" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={facebookIcon} alt="Facebook" /></a>
-                    <a href="https://www.linkedin.com/in/naung-naung-b849141b6" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={linkedinIcon} alt="Linkedin" /></a>
+                    <a href="https://www.linkedin.com/in/naung-naung" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={linkedinIcon} alt="Linkedin" /></a>
                     <a href="https://github.com/Naung2024" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={githubIcon} alt="Github" /></a>
                 </div>
             </div>
