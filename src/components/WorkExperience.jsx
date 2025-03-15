@@ -62,9 +62,9 @@ const WorkExperience = () => {
                         </div>
                         <h6 className="text-lg font-medium text-custom-green my-[15px]">Responsibilities</h6>
                         <ul className="text-white list-disc pl-5">
-                            <li className="mb-2.5">Designed and implemented dynamic Web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, VueJs and Laravel (PHP framework), MySQL.</li>
-                            <li className="mb-2.5">Designed and maintained databases and execute back-end and user interface tests to optimize system performance.</li>
-                            <li>Troubleshoot, test and maintain the core product software and databases to ensure strong optimization and functionality.</li>
+                            <li className="mb-2.5">Designed and implemented dynamic web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, Vue.js, Laravel (PHP framework), and MySQL.</li>
+                            <li className="mb-2.5">Developed and maintained databases and executed back-end and user interface tests to optimize system performance.</li>
+                            <li>Troubleshot, tested, and maintained the core product software and databases to ensure strong optimization and functionality.</li>
                         </ul>
                     </div>
                 </div>
@@ -94,11 +94,11 @@ const WorkExperience = () => {
                         </div>
                         <h6 className="text-lg font-medium text-custom-green my-[15px]">Responsibilities</h6>
                         <ul className="text-white list-disc pl-5">
-                            <li className="mb-2.5">Designed user interfaces for web and mobile applications using Figma</li>
+                            <li className="mb-2.5">Designed user interfaces for web and mobile applications using Figma.</li>
                             <li className="mb-2.5">Created wireframes, prototypes, and user flows to effectively communicate interaction and design ideas.</li>
-                            <li className="mb-2.5">Designed and implemented dynamic Web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, VueJs and Laravel (PHP framework), MySQL.</li>
-                            <li className="mb-2.5">Designed and maintained databases and execute back-end and user interface tests to optimize system performance.</li>
-                            <li>Troubleshoot, test and maintain the core product software and databases to ensure strong optimization and functionality.</li>
+                            <li className="mb-2.5">Designed and implemented dynamic web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, Vue.js, Laravel (PHP framework), and MySQL.</li>
+                            <li className="mb-2.5">Developed and maintained databases and executed back-end and user interface tests to optimize system performance.</li>
+                            <li>Troubleshot, tested, and maintained the core product software and databases to ensure strong optimization and functionality.</li>
                         </ul>
                     </div>
                 </div>
@@ -125,8 +125,8 @@ const WorkExperience = () => {
                         </div>
                         <h6 className="text-lg font-medium text-custom-green my-[15px]">Responsibilities</h6>
                         <ul className="text-white list-disc pl-5">
-                            <li className="mb-2.5">Designed and implemented dynamic Web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, VueJs and Laravel (PHP framework), MySQL.</li>
-                            <li> Developed, built and maintained RESTful APIs</li>
+                            <li className="mb-2.5">Designed and implemented dynamic web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, Vue.js, Laravel (PHP framework), and MySQL.</li>
+                            <li>Developed, built, and maintained RESTful APIs.</li>
                         </ul>
                     </div>
                 </div>
@@ -156,8 +156,8 @@ const WorkExperience = () => {
                         </div>
                         <h6 className="text-lg font-medium text-custom-green my-[15px]">Responsibilities</h6>
                         <ul className="text-white list-disc pl-5">
-                            <li className="mb-2.5">Developed location tracking using Nodejs, Express, Elasticsearch, Docker, Kibina.</li>
-                            <li className="mb-2.5">Developed Map Improvement (Map Accuracy) using Nodejs (API), Express, Google Map API, MongoDB (NoSQL).</li>
+                            <li className="mb-2.5">Developed location tracking using Node.js, Express, Elasticsearch, Docker, and Kibana.</li>
+                            <li className="mb-2.5">Developed map improvement (map accuracy) using Node.js (API), Express, Google Maps API, and MongoDB (NoSQL).</li>
                         </ul>
                     </div>
                 </div>
@@ -184,7 +184,7 @@ const WorkExperience = () => {
                         </div>
                         <h6 className="text-lg font-medium text-custom-green my-[15px]">Responsibilities</h6>
                         <ul className="text-white list-disc pl-5">
-                            <li className="mb-2.5">Designed and implemented dynamic Web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, Nodejs, Express, MongoDB (NoSQL).</li>
+                            <li className="mb-2.5">Designed and implemented dynamic web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, Nodejs, Express, MongoDB (NoSQL).</li>
                         </ul>
                     </div>
                 </div>
