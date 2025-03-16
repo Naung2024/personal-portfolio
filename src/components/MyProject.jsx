@@ -1,5 +1,5 @@
 import Uplyrn from "../assets/images/uplyrn-website.png";
-import PvCar from "../assets/images/pv-car-rental.png";
+import PvMyanmar from "../assets/images/pv-myanmar.png";
 import Oway from "../assets/images/oway-website.png";
 import { PiBuildingOfficeBold } from "react-icons/pi";
 
@@ -36,19 +36,19 @@ const MyProject = () => {
 
             <div className="flex justify-between items-center mt-[40px] gap-x-[90px] sm:flex-row flex-col">
                 <div className="sm:mb-0 mb-[30px]">
-                    <h4 className="text-custom-green text-2xl font-medium sm:hidden block mb-5">PV Car Rental</h4>
-                    <img className="w-full h-auto sm:w-[560px] sm:h-[285px] max-w-full object-cover" src={PvCar} alt="Uplyrn project" />
+                    <h4 className="text-custom-green text-2xl font-medium sm:hidden block mb-5">PV Myanmar</h4>
+                    <img className="w-full h-auto sm:w-[560px] sm:h-[285px] max-w-full object-cover" src={PvMyanmar} alt="Uplyrn project" />
                 </div>
                 <div className="w-full sm:w-[531px]">
-                    <h4 className="text-custom-green text-2xl font-medium sm:block hidden">PV Car Rental</h4>
+                    <h4 className="text-custom-green text-2xl font-medium sm:block hidden">PV Myanmar</h4>
                     <div className="flex mt-0 sm:mt-5 mb-2.5 items-start">
                         <PiBuildingOfficeBold className="text-custom-orange size-6"/>
                         <h6 className="text-lg font-medium text-white ml-2.5">PV Myanmar Co., Ltd, Yangon</h6>
                     </div>
                     <p className="text-white font-normal leading-7 mb-5">
-                        Pinnacle Ventures Group Services (PV) has been in operation since 2016 and provides a range of Transport and Financing Services to multinational companies, small businesses and individual customers and I created their website for dynamic Web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, VueJs and Laravel (PHP framework), MySQL tools I know.
+                    PV Myanmar has been in operation in since 2016 and provide a range of Transport and Financial services to Multinational compaines, Small and Medium Enterprises and Individual customers. We operate more than 500 units of auto fleet and offer Pick Up Trucks, Seden, 4WD SUVs, 28 seaters Mini Buses, Mini Van such as Alphard and logistic vehicles for value customers and I created their website for dynamic Web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, VueJs and Laravel (PHP framework), MySQL tools I know.
                     </p>
-                    <a href="https://pvcarrental.com" target="_blank" className="w-[156px] h-[40px] bg-custom-orange flex items-center justify-center text-white rounded-[3px]">
+                    <a href="https://www.pvmyanmar.com/" target="_blank" className="w-[156px] h-[40px] bg-custom-orange flex items-center justify-center text-white rounded-[3px]">
                         View Website
                     </a>
                 </div>
