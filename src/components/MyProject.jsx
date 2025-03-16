@@ -43,7 +43,7 @@ const MyProject = () => {
                     <h4 className="text-custom-green text-2xl font-medium sm:block hidden">PV Car Rental</h4>
                     <div className="flex mt-0 sm:mt-5 mb-2.5 items-start">
                         <PiBuildingOfficeBold className="text-custom-orange size-6"/>
-                        <h6 className="text-lg font-medium text-white ml-2.5">Pinnacle Venture Myanmar Co., Ltd, Yangon</h6>
+                        <h6 className="text-lg font-medium text-white ml-2.5">PV Myanmar Co., Ltd, Yangon</h6>
                     </div>
                     <p className="text-white font-normal leading-7 mb-5">
                         Pinnacle Ventures Group Services (PV) has been in operation since 2016 and provides a range of Transport and Financing Services to multinational companies, small businesses and individual customers and I created their website for dynamic Web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, VueJs and Laravel (PHP framework), MySQL tools I know.

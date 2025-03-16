@@ -86,7 +86,7 @@ const WorkExperience = () => {
                     <div className="ml-[35px] mt-[15px]">
                         <div className="flex mb-2.5 items-center">
                             <PiBuildingOfficeBold className="text-custom-orange size-5 mr-2"/>
-                            <p className="text-white font-normal leading-7">LMB Management Co., Ltd</p>
+                            <p className="text-white font-normal leading-7">LM LearnMyanmar Co., Ltd</p>
                         </div>
                         <div className="flex items-center">
                             <MdWorkHistory className="text-custom-orange size-5 mr-2" />
@@ -117,7 +117,7 @@ const WorkExperience = () => {
                     <div className="ml-[35px] mt-[15px]">
                         <div className="flex mb-2.5 items-center">
                             <PiBuildingOfficeBold className="text-custom-orange size-5 mr-2"/>
-                            <p className="text-white font-normal leading-7">Pinnacle Venture Myanmar Co., Ltd, Yangon</p>
+                            <p className="text-white font-normal leading-7">PV Myanmar Co., Ltd, Yangon</p>
                         </div>
                         <div className="flex items-center">
                             <MdWorkHistory className="text-custom-orange size-5 mr-2" />
