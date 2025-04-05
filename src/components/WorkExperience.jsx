@@ -17,6 +17,34 @@ const WorkExperience = () => {
                     <div className="flex justify-between items-start">
                         <div className="flex items-start">
                             <MdWorkOutline className="text-custom-orange size-7 mr-2" />
+                            <h5 className="text-white text-lg sm:text-xl">Freelance Web Developer | Self-Learning</h5>
+                        </div>
+                    </div>
+                    <div className="ml-[35px] mt-[15px]">
+                        <div className="flex mb-2.5 items-center">
+                            <p className="text-white font-normal leading-7">Remote | Self-directed</p>
+                        </div>
+                        <div className="flex items-center">
+                            <MdWorkHistory className="text-custom-orange size-5 mr-2" />
+                            <p className="text-white font-normal leading-7">Sep 2024 ~ Present</p>
+                        </div>
+                        <h6 className="text-lg font-medium text-custom-green my-[15px]">Overview</h6>
+                        <p className="text-white font-normal leading-7">Currently enhancing full-stack development skills through hands-on learning and practice, focusing on building modern, scalable web applications.</p>
+                        <h6 className="text-lg font-medium text-custom-green my-[15px]">Key Activities</h6>
+                        <ul className="text-white list-disc pl-5">
+                            <li className="mb-2.5">Practicing front-end development using React.js and Tailwind CSS to build responsive, user-friendly interfaces.</li>
+                            <li className="mb-2.5">Exploring back-end development with Node.js, MongoDB, and RESTful APIs, preparing for full project integration.</li>
+                            <li className="mb-2.5">Studying AWS cloud services to understand hosting, deployment, and scalability.</li>
+                            <li className="mb-2.5">Applying Git and GitHub for version control and project management.</li>
+                            <li className="mb-2.5">Designed a personal UI/UX project using Figma, focusing on intuitive layouts and user flow.</li>
+                            <li className="mb-2.5">Preparing for full project implementation to apply backend and frontend skills in an integrated, real-world application.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="w-full sm:w-[560px]">
+                    <div className="flex justify-between items-start">
+                        <div className="flex items-start">
+                            <MdWorkOutline className="text-custom-orange size-7 mr-2" />
                             <h5 className="text-white text-lg sm:text-xl">Freelance UI/UX Designer</h5>
                         </div>
                         <div className="w-[102px] h-[28px] bg-custom-orange flex items-center justify-center text-white text-sm rounded-[50px]">
@@ -30,7 +58,7 @@ const WorkExperience = () => {
                         </div>
                         <div className="flex items-center">
                             <MdWorkHistory className="text-custom-orange size-5 mr-2" />
-                            <p className="text-white font-normal leading-7">Aug 2024 ~ Aug 2024</p>
+                            <p className="text-white font-normal leading-7">July 2024 ~ Aug 2024</p>
                         </div>
                         <h6 className="text-lg font-medium text-custom-green my-[15px]">Responsibilities</h6>
                         <ul className="text-white list-disc pl-5">
@@ -39,6 +67,8 @@ const WorkExperience = () => {
                         </ul>
                     </div>
                 </div>
+            </div>
+            <div className="flex sm:flex-row flex-col justify-between mt-[50px] gap-10">
                 <div className="w-full sm:w-[560px]">
                     <div className="flex justify-between items-start">
                         <div className="flex items-start">
@@ -68,9 +98,6 @@ const WorkExperience = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
-
-            <div className="flex sm:flex-row flex-col justify-between mt-[30px] gap-10">
                 <div className="w-full sm:w-[560px]">
                     <div className="flex justify-between items-start">
                         <div className="flex items-start">
@@ -102,6 +129,8 @@ const WorkExperience = () => {
                         </ul>
                     </div>
                 </div>
+            </div>
+            <div className="flex sm:flex-row flex-col justify-between mt-[30px] gap-10">
                 <div className="w-full sm:w-[560px]">
                     <div className="flex justify-between items-start">
                         <div className="flex items-start">
@@ -130,9 +159,6 @@ const WorkExperience = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
-
-            <div className="flex sm:flex-row flex-col justify-between mt-[30px] gap-10">
                 <div className="w-full sm:w-[560px]">
                     <div className="flex justify-between items-start">
                         <div className="flex items-start">
@@ -158,33 +184,6 @@ const WorkExperience = () => {
                         <ul className="text-white list-disc pl-5">
                             <li className="mb-2.5">Developed location tracking using Node.js, Express, Elasticsearch, Docker, and Kibana.</li>
                             <li className="mb-2.5">Developed map improvement (map accuracy) using Node.js (API), Express, Google Maps API, and MongoDB (NoSQL).</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="w-full sm:w-[560px]">
-                    <div className="flex justify-between items-start">
-                        <div className="flex items-start">
-                            <MdWorkOutline className="text-custom-orange size-7 mr-2" />
-                            <h5 className="text-white text-lg sm:text-xl">Junior Web Developer</h5>
-                        </div>
-                        <div>
-                            <div className="w-[102px] h-[28px] bg-custom-orange flex items-center justify-center text-white text-sm rounded-[50px]">
-                                Full Time
-                            </div>
-                        </div>
-                    </div>
-                    <div className="ml-[35px] mt-[15px]">
-                        <div className="flex mb-2.5 items-center">
-                            <PiBuildingOfficeBold className="text-custom-orange size-5 mr-2"/>
-                            <p className="text-white font-normal leading-7">Marter Solutions, Mandalay</p>
-                        </div>
-                        <div className="flex items-center">
-                            <MdWorkHistory className="text-custom-orange size-5 mr-2" />
-                            <p className="text-white font-normal leading-7">Oct 2018 ~ Nov 2018 </p>
-                        </div>
-                        <h6 className="text-lg font-medium text-custom-green my-[15px]">Responsibilities</h6>
-                        <ul className="text-white list-disc pl-5">
-                            <li className="mb-2.5">Designed and implemented dynamic web applications using HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax, Nodejs, Express, MongoDB (NoSQL).</li>
                         </ul>
                     </div>
                 </div>
