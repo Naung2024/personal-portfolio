@@ -36,7 +36,8 @@ const WorkExperience = () => {
                             <li className="mb-2.5">Exploring back-end development with Node.js, MongoDB, and RESTful APIs, preparing for full project integration.</li>
                             <li className="mb-2.5">Studying AWS cloud services to understand hosting, deployment, and scalability.</li>
                             <li className="mb-2.5">Applying Git and GitHub for version control and project management.</li>
-                            <li className="mb-2.5">Designed a personal UI/UX project using Figma, focusing on intuitive layouts and user flow.</li>
+                            <li className="mb-2.5">Worked on several UI/UX projects using Figma, from personal
+                            concepts to client-focused designs.</li>
                             <li className="mb-2.5">Preparing for full project implementation to apply backend and frontend skills in an integrated, real-world application.</li>
                         </ul>
                     </div>
