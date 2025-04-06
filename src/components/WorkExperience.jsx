@@ -63,8 +63,8 @@ const WorkExperience = () => {
                         </div>
                         <h6 className="text-lg font-medium text-custom-green my-[15px]">Responsibilities</h6>
                         <ul className="text-white list-disc pl-5">
-                            <li className="mb-2.5">Designed user interfaces for web and mobile applications using Figma.</li>
-                            <li className="mb-2.5">Created wireframes, prototypes, and user flows to effectively communicate interaction and design ideas.</li>
+                            <li className="mb-2.5">Designed wireframes, prototypes, and user flows using Figma.</li>
+                            <li className="mb-2.5">Created user interfaces for web and mobile applications with Figma.</li>
                         </ul>
                     </div>
                 </div>
