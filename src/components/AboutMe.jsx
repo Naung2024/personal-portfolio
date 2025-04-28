@@ -63,7 +63,7 @@ const AboutMe = () => {
                     <div className="text-white w-[80%] ml-auto text-base flex space-x-[15px]">
                         <a href="https://www.facebook.com/share/18R8yxYE2H" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={facebookIcon} alt="Facebook" /></a>
                         <a href="https://www.linkedin.com/in/naung-naung" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={linkedinIcon} alt="Linkedin" /></a>
-                        <a href="https://github.com/Naung2024" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={githubIcon} alt="Github" /></a>
+                        {/* <a href="https://github.com/Naung2024" target="_blank"><img className="w-[30px] h-[30px] rounded-full" src={githubIcon} alt="Github" /></a> */}
                     </div>
                 </div>
                 <button onClick={(e) => handleSmoothScroll(e, '#contact')} className="my-5 w-[156px] h-[40px] bg-custom-orange align-center text-white rounded-[3px]">
