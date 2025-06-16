@@ -48,7 +48,7 @@ const AboutMe = () => {
                 </div>
                 <div className="flex gap-5">
                     <div className="text-custom-green w-[20%] text-base">Phone:</div>
-                    <div className="text-white w-[80%] ml-auto text-base">080 965 2078</div>
+                    <div className="text-white w-[80%] ml-auto text-base">+6680 965 2078</div>
                 </div>
                 <div className="flex my-4 gap-5">
                     <div className="text-custom-green w-[20%] text-base">Education:</div>

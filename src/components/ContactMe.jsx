@@ -85,7 +85,7 @@ const ContactUs = () => {
                             </div>
                             <div className="flex flex-col justify-center">
                                 <h5 className="text-custom-green text-xl font-medium">Call Me</h5>
-                                <p className="text-white font-normal leading-7">080 965 2078</p>
+                                <p className="text-white font-normal leading-7">+6680 965 2078</p>
                             </div>
                         </div>
                         
